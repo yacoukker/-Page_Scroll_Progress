@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 5000px;
+}
+.scroll{
+    position: fixed;
+    height: 4px;
+    background-color: blue;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+/* .scroll::after{
+    content: "";
+    position: absolute;
+    height: 6px ;
+    width: 6px;
+    border-radius: 50%;
+    background-color: blue;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+} */
